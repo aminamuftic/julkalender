@@ -7,6 +7,7 @@ int myHeight = 5;
 
 void draw(){
   background(0);
+  boxes(xPos,yPos,0,0,5);
   fill(250);
   ellipse(xPos, yPos, myWidth, myHeight);
     yPos = yPos + 1;
