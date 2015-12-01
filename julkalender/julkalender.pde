@@ -1,4 +1,6 @@
-//bakgrund där luckorna ska vara
-//hejhejhej
+PVector [] 
+
+
 void setup() {
+  size(800,600);
 }
