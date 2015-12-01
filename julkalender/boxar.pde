@@ -1,8 +1,8 @@
-int boxWidth = 20;
-int boxHeight = 20;
-int edges = 5;
 
-void boxes(){
-rect(10,10,boxWidth,boxHeight,edges);
+
+void boxes(int xPos, int yPos, int boxWidth,
+int boxHeight, int edges){
+  fill(255,0,0);
+rect(10,10,200,200,50);
 
 }
