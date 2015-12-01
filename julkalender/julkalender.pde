@@ -1,24 +1,8 @@
-<<<<<<< HEAD
-PVector [] snowflakes;
-
 
 void setup() {
-  size(800,600);
-
-=======
-void setup() {
-  size(800,600);
-  
-<<<<<<< HEAD
+  size(800, 600);
 }
 
 
-void draw(){
-  
-  
-  
-  
-=======
->>>>>>> origin/master
->>>>>>> origin/master
+void draw() {
 }
