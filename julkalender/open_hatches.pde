@@ -1,3 +1,6 @@
+PImage tryffel;
+
+
 boolean isClickOnBox1 = false;
 
 int box = 100;
@@ -15,5 +18,6 @@ void mouseClicked () {
 
   if (isClickOnBox (xPos, yPos, box, box) == true) {
     println("god jul");
+    image(tryffel,125,10,550,600);
   }
 }

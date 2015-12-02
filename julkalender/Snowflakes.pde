@@ -5,7 +5,7 @@ void snowflakes() {
   PVector snowflakes1;
   noStroke();
   fill(250);
-  snowflakes = new PVector [100];
+  snowflakes = new PVector [30];
 
   for (int i = 0; i < snowflakes.length; i ++) {
     snowflakes[i] = new PVector ();
