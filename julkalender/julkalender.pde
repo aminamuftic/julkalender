@@ -7,4 +7,5 @@ void draw() {
   background(0);
   boxes();
   snowflakes();
+  println(mouseX + "." + mouseY);
 }
