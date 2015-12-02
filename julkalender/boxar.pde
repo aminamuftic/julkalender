@@ -1,7 +1,7 @@
 int [] myBoxes;
 
 void boxes() {
-  int xPos = 70;
+  int xPos = 50;
   int yPos = 50;
 
 
@@ -13,8 +13,8 @@ void boxes() {
     fill(150);
     rect(xPos, yPos, 100, 100);
     xPos = xPos + 120;
-    if (xPos + 11 > width) {
-      xPos = 70;
+    if (xPos + 50 > width) {
+      xPos = 50;
       yPos = yPos + 120;
     }
   }
