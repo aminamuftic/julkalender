@@ -1,5 +1,5 @@
 void setup() {
-  fullScreen();
+  size(800,600);
 }
 
 
