@@ -1,16 +1,12 @@
 PVector [] snowflakes;
 
-<<<<<<< HEAD
 
-void snowFalkes(){
-  background(0);
-=======
 void snowflakes() {
   PVector snowflakes1;
   noStroke();
->>>>>>> origin/master
   fill(250);
   snowflakes = new PVector [100];
+
   for (int i = 0; i < snowflakes.length; i ++) {
     snowflakes[i] = new PVector ();
     snowflakes[i].x = random(0, width);
