@@ -12,7 +12,6 @@ void boxes() {
 
     fill(150);
     rect(xPos, yPos, 100, 100);
-    println("hej " + i);
     xPos = xPos + 120;
     if (xPos + 11 > width) {
       xPos = 70;
