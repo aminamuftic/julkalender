@@ -9,4 +9,5 @@ void draw() {
   snowflakes();
   println("X: " +  mouseX + "." + "Y: " + mouseY);
   ellipse(mouseX, mouseY, 20, 20);
-}
+noCursor();
+  }
