@@ -2,7 +2,7 @@ PImage backGround;
 PFont font;
 
 void setup() {
-  font = createFont("american typewriter",20);
+  font = createFont("american typewriter",40);
   textFont(font);
   backGround = loadImage("bakgrund.jpg");
   tryffel = loadImage("tryffel.jpg");
@@ -14,9 +14,9 @@ void draw() {
   image(backGround,0,0,width,height);
   boxes();
   snowflakes();
-  ellipse(mouseX, mouseY, 20, 20);
+  snowball();
   noCursor();
   mouseClicked();
-  fill(0);
-  text("HEJ",75,100);
+  fill(250, 0, 0);
+  text("1",90,110);
 }

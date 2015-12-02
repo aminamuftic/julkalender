@@ -18,6 +18,6 @@ void mouseClicked () {
 
   if (isClickOnBox (xPos, yPos, box, box) == true) {
     println("god jul");
-    image(tryffel,125,10,550,600);
+    image(tryffel,125,10,550,500);
   }
 }

@@ -20,9 +20,4 @@ void boxes() {
       yPos = yPos + 120;
     }
   }
-  for (int i = 0; i < siffror.length; i = i + 1) {
-    xPos = xPos + 120;
-    text(myBoxes[i], 10, 20);
-    println(i);
-  }
 }
