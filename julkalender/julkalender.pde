@@ -22,6 +22,7 @@ PImage lingonpepparkaka;
 PImage lussekatter;
 PImage varmchoklad;
 PImage saffransgranola;
+PImage valnotsrora;
 
 void setup() {
   mouseCursor = loadImage("TREE.png");
@@ -49,6 +50,7 @@ void setup() {
   lussekatter = loadImage("lussekatter.jpg");
   varmchoklad = loadImage("20e.jpg");
   saffransgranola = loadImage("21a.jpg");
+  valnotsrora = loadImage("22a.jpg");
   
   size(800,600);
 }

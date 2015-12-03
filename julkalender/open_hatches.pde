@@ -102,6 +102,9 @@ void displayOpenHatch() {
     case 21:
       image(saffransgranola,125,10,550,500);
       break;
+    case 22:
+      image(valnotsrora,125,10,550,500);
+      break;
   }
 }
 
