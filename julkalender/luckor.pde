@@ -3,8 +3,8 @@ String [][] siffror;
 int [][] siffrorPos;
 
 void boxsiffror(){
-  int yPos = 50;
-int xPos = 50;
+  int yPos = width/16;
+int xPos = width/7;
   
  siffrorPos = new int [25][2];
  
@@ -16,10 +16,10 @@ int xPos = 50;
     siffrorPos[i][0] = xPos;
     siffrorPos[i][1] = yPos;
    
-   xPos = xPos + 120;
-    if (xPos + 50 > width) {
-      xPos = 50;
-      yPos = yPos + 120;
+   xPos = xPos + width/8;
+    if (xPos + width/5 > width) {
+      xPos = width/7;
+      yPos = yPos + width/8;
     }
   }
  }

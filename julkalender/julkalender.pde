@@ -56,7 +56,7 @@ void setup() {
   julgodis = loadImage("23e.jpg");
   julsnaps = loadImage("24e.jpg");
   
-  size(800,600);
+  size(960,540);
 }
 
 
