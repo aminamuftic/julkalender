@@ -20,7 +20,7 @@ PImage cinnamonchip;
 void setup() {
   font = createFont("american typewriter",40);
   textFont(font);
-  backGround = loadImage("bakgrund.jpg");
+  backGround = loadImage("bakgrundd.png");
   tryffel = loadImage("tryffel.jpg");
   ischoklad = loadImage("ischoklad.jpg");
   kottbullar = loadImage("kottbullar.jpg");
