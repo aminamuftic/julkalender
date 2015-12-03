@@ -18,6 +18,9 @@ PImage fikon;
 PImage cinnamonchip;
 PImage saffranskorpor;
 PImage lingonpepparkaka;
+PImage lussekatter;
+PImage varmchoklad;
+PImage saffransgranola;
 
 void setup() {
   font = createFont("american typewriter",40);
@@ -41,6 +44,9 @@ void setup() {
   cinnamonchip = loadImage("cinnamonchip.jpg");
   saffranskorpor = loadImage("saffranskorpor.jpg");
   lingonpepparkaka = loadImage("lingonpepparkaka.jpg");
+  lussekatter = loadImage("lussekatter.jpg");
+  varmchoklad = loadImage("20e.jpg");
+  saffransgranola = loadImage("21a.jpg");
   
   size(800,600);
 }
