@@ -30,7 +30,7 @@ void setup() {
   mouseCursor = loadImage("TREE.png");
   font = createFont("american typewriter",40);
   textFont(font);
-  backGround = loadImage("bakgrundd.png");
+  backGround = loadImage("background.jpg");
   tryffel = loadImage("tryffel.jpg");
   ischoklad = loadImage("ischoklad.jpg");
   kottbullar = loadImage("kottbullar.jpg");
