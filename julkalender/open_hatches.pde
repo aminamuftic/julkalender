@@ -69,6 +69,18 @@ void displayOpenHatch() {
     case 10:
       image(gronkal,125,10,550,500);
       break;
+    case 11:
+      image(fudge,125,10,550,500);
+      break;
+    case 12:
+      image(saffranscupcake,125,10,550,500);
+      break;
+    case 13:
+      image(ragsur,125,10,550,500);
+      break;
+    case 14:
+      image(sprodapepparkakor,125,10,550,500);
+      break;
   }
 }
 

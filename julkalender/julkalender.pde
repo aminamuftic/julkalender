@@ -10,7 +10,10 @@ PImage smorkola;
 PImage rockyroad;
 PImage brunkal;
 PImage gronkal;
-
+PImage fudge;
+PImage saffranscupcake;
+PImage ragsur;
+PImage sprodapepparkakor;
 
 void setup() {
   font = createFont("american typewriter",40);
@@ -26,6 +29,10 @@ void setup() {
   rockyroad = loadImage("rockyroad.jpg");
   brunkal = loadImage("brunkal.jpg");
   gronkal = loadImage("gronkal.jpg");
+  fudge = loadImage("fudge.jpg");
+  saffranscupcake = loadImage("saffranscupcake.jpg");
+  ragsur = loadImage("ragsur.jpg");
+  sprodapepparkakor = loadImage("sprodapepparkakor.jpg");
   
   size(800, 600);
 }
