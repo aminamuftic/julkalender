@@ -22,5 +22,5 @@ void snowflakes() {
       snowflakes1.x = random(0, width);
     }
   }
-  stroke(0);
+  stroke(0,0,0,100);
 }
