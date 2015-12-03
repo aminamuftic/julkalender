@@ -10,7 +10,8 @@ int xPos = 50;
  
  for (int i = 1; i < siffrorPos.length ; i = i + 1) {
    
-   text(i, xPos+40, yPos+65);
+   textAlign(CENTER);
+   text(i, xPos+50, yPos+65);
    
     siffrorPos[i][0] = xPos;
     siffrorPos[i][1] = yPos;
