@@ -98,8 +98,8 @@ void displayOpenHatch() {
 
 void openHatchesTimer() {
   int millisSinceAppStart = millis();
-  int minutesSinceAppStart = millisSinceAppStart / 1000;
-  //int minutesSinceAppStart = millisSinceAppStart / MINUTE;
+  //int minutesSinceAppStart = millisSinceAppStart / 1000;
+  int minutesSinceAppStart = millisSinceAppStart / MINUTE;
   
   boolean hasTenMinutesPassed = tenMinutesPassed(minutesSinceAppStart);
 

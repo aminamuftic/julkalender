@@ -42,7 +42,7 @@ void setup() {
   saffranskorpor = loadImage("saffranskorpor.jpg");
   lingonpepparkaka = loadImage("lingonpepparkaka.jpg");
   
-  size(800, 600);
+  size(800,600);
 }
 
 
