@@ -1,5 +1,5 @@
 void snowball(){
-noStroke();
-fill(#09813A);
-    ellipse(mouseX, mouseY, 20, 20);
+mouseCursor = loadImage("TREE.png");
+noCursor();
+image(mouseCursor, mouseX, mouseY, 50, 50);
 }

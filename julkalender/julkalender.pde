@@ -1,4 +1,5 @@
 PImage backGround;
+PImage mouseCursor;
 PFont font;
 PImage tryffel;
 PImage ischoklad;
@@ -23,6 +24,7 @@ PImage varmchoklad;
 PImage saffransgranola;
 
 void setup() {
+  mouseCursor = loadImage("TREE.png");
   font = createFont("american typewriter",40);
   textFont(font);
   backGround = loadImage("bakgrundd.png");
