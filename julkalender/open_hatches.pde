@@ -108,6 +108,9 @@ void displayOpenHatch() {
     case 23:
       image(julgodis,125,10,550,500);
       break;
+    case 24:
+      image(julsnaps,125,10,550,500);
+      break;
   }
 }
 

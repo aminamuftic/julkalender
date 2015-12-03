@@ -24,6 +24,7 @@ PImage varmchoklad;
 PImage saffransgranola;
 PImage valnotsrora;
 PImage julgodis;
+PImage julsnaps;
 
 void setup() {
   mouseCursor = loadImage("TREE.png");
@@ -53,6 +54,7 @@ void setup() {
   saffransgranola = loadImage("21a.jpg");
   valnotsrora = loadImage("22a.jpg");
   julgodis = loadImage("23e.jpg");
+  julsnaps = loadImage("24e.jpg");
   
   size(800,600);
 }
