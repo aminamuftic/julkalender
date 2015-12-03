@@ -1,5 +1,5 @@
 void snowball(){
 noStroke();
-fill(0, 250, 0, 200);
+fill(#09813A);
     ellipse(mouseX, mouseY, 20, 20);
 }
