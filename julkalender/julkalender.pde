@@ -31,7 +31,7 @@ void setup() {
   font = createFont("american typewriter", 40);
   textFont(font);
   backGround = loadImage("background.jpg");
-  tryffel = loadImage("tryffel.jpg");
+  tryffel = loadImage("tryffell.jpg");
   ischoklad = loadImage("ischoklad.jpg");
   kottbullar = loadImage("kottbullar.jpg");
   revbenspjall = loadImage("revbenspjall.jpg");
