@@ -64,10 +64,10 @@ void draw() {
   image(backGround, 0, 0, width, height);
   boxes();
   snowflakes();
-  snowball();
   noCursor();
-  fill(255, 0, 0);
+  fill(200, 0, 0);
   boxsiffror();
   openHatchesTimer();
   displayOpenHatch();
+    snowball();
 }
