@@ -28,7 +28,7 @@ PImage julsnaps;
 
 void setup() {
   mouseCursor = loadImage("TREE.png");
-  font = createFont("american typewriter",40);
+  font = createFont("american typewriter", 40);
   textFont(font);
   backGround = loadImage("background.jpg");
   tryffel = loadImage("tryffel.jpg");
@@ -55,20 +55,19 @@ void setup() {
   valnotsrora = loadImage("22a.jpg");
   julgodis = loadImage("23e.jpg");
   julsnaps = loadImage("24e.jpg");
-  
-  size(960,540);
+
+  size(960, 540);
 }
 
 
 void draw() {
-  image(backGround,0,0,width,height);
+  image(backGround, 0, 0, width, height);
   boxes();
   snowflakes();
   snowball();
   noCursor();
-  fill(255,0,0);
-    boxsiffror();
+  fill(255, 0, 0);
+  boxsiffror();
   openHatchesTimer();
   displayOpenHatch();
-
 }

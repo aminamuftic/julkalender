@@ -3,7 +3,7 @@ PVector [] snowflakes;
 
 void snowflakes() {
   PVector snowflakes1;
-noStroke();
+  noStroke();
   fill(250);
   snowflakes = new PVector [30];
 
@@ -23,5 +23,4 @@ noStroke();
     }
   }
   stroke(0);
-  
 }
