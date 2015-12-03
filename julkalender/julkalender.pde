@@ -14,6 +14,8 @@ PImage fudge;
 PImage saffranscupcake;
 PImage ragsur;
 PImage sprodapepparkakor;
+PImage fikon;
+PImage cinnamonchip;
 
 void setup() {
   font = createFont("american typewriter",40);
@@ -33,6 +35,8 @@ void setup() {
   saffranscupcake = loadImage("saffranscupcake.jpg");
   ragsur = loadImage("ragsur.jpg");
   sprodapepparkakor = loadImage("sprodapepparkakor.jpg");
+  fikon = loadImage("fikon.jpg");
+  cinnamonchip = loadImage("cinnamonchip.jpg");
   
   size(800, 600);
 }
