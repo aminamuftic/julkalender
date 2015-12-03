@@ -12,7 +12,7 @@ PImage brunkal;
 PImage gronkal;
 PImage fudge;
 PImage saffranscupcake;
-PImage ragsur;
+PImage ragsurr;
 PImage sprodapepparkakor;
 PImage fikon;
 PImage cinnamonchip;
@@ -33,7 +33,7 @@ void setup() {
   gronkal = loadImage("gronkal.jpg");
   fudge = loadImage("fudge.jpg");
   saffranscupcake = loadImage("saffranscupcake.jpg");
-  ragsur = loadImage("ragsur.jpg");
+  ragsurr = loadImage("ragsurr.jpg");
   sprodapepparkakor = loadImage("sprodapepparkakor.jpg");
   fikon = loadImage("fikon.jpg");
   cinnamonchip = loadImage("cinnamonchip.jpg");

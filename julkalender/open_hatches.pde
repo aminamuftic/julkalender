@@ -76,7 +76,7 @@ void displayOpenHatch() {
       image(saffranscupcake,125,10,550,500);
       break;
     case 13:
-      image(ragsur,125,10,550,500);
+      image(ragsurr,125,10,550,500);
       break;
     case 14:
       image(sprodapepparkakor,125,10,550,500);
