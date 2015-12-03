@@ -1,13 +1,13 @@
 
 
 int[][] myBoxes;
-String [] siffror;
+
 
 void boxes() {
   int xPos = 50;
   int yPos = 50;
 
-  siffror = new String [24];
+ 
   myBoxes = new int[24][2];
 
   for (int i = 0; i < myBoxes.length; i = i + 1) {

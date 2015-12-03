@@ -48,8 +48,9 @@ void draw() {
   snowflakes();
   snowball();
   noCursor();
+  fill(255,0,0);
+    boxsiffror();
   openHatchesTimer();
   displayOpenHatch();
-  fill(250, 0, 0);
-  text("1",90,110);
+
 }
