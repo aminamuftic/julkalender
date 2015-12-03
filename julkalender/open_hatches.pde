@@ -54,6 +54,21 @@ void displayOpenHatch() {
     case 5:
       image(knack,125,10,550,500);
       break;
+    case 6:
+      image(skinka,125,10,550,500);
+      break;
+    case 7:
+      image(smorkola,125,10,550,500);
+      break;
+    case 8:
+      image(rockyroad,125,10,550,500);
+      break;
+    case 9:
+      image(brunkal,125,10,550,500);
+      break;
+    case 10:
+      image(gronkal,125,10,550,500);
+      break;
   }
 }
 

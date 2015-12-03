@@ -5,6 +5,12 @@ PImage ischoklad;
 PImage kottbullar;
 PImage revbenspjall;
 PImage knack;
+PImage skinka;
+PImage smorkola;
+PImage rockyroad;
+PImage brunkal;
+PImage gronkal;
+
 
 void setup() {
   font = createFont("american typewriter",40);
@@ -15,6 +21,12 @@ void setup() {
   kottbullar = loadImage("kottbullar.jpg");
   revbenspjall = loadImage("revbenspjall.jpg");
   knack = loadImage("knack.jpg");
+  skinka = loadImage("skinka.jpg");
+  smorkola = loadImage("smorkola.jpg");
+  rockyroad = loadImage("rockyroad.jpg");
+  brunkal = loadImage("brunkal.jpg");
+  gronkal = loadImage("gronkal.jpg");
+  
   size(800, 600);
 }
 
