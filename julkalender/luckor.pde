@@ -1,4 +1,3 @@
-String [][] siffror;
 
 int [][] siffrorPos;
 
