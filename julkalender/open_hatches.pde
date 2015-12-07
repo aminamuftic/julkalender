@@ -1,5 +1,3 @@
-
-
 boolean isClickOnBox1 = false;
 
 boolean openedByTimer = false;
@@ -40,76 +38,76 @@ void displayOpenHatch() {
   case 0:
     break;
   case 1:
-    image(tryffel, 125, 10, 550, 500);
+    image(tryffel, 125, 10, 700, 500);
     break;
   case 2:
-    image(ischoklad, 125, 10, 550, 500);
+    image(ischoklad, 125, 10, 700, 500);
     break;
   case 3:
-    image(kottbullar, 125, 10, 550, 500);
+    image(kottbullar, 125, 10, 700, 500);
     break;
   case 4:
-    image(revbenspjall, 125, 10, 550, 500);
+    image(revbenspjall, 125, 10, 700, 500);
     break;
   case 5:
-    image(knack, 125, 10, 550, 500);
+    image(knack, 125, 10, 700, 500);
     break;
   case 6:
-    image(skinka, 125, 10, 550, 500);
+    image(skinka, 125, 10, 700, 500);
     break;
   case 7:
-    image(smorkola, 125, 10, 550, 500);
+    image(smorkola, 125, 10, 700, 500);
     break;
   case 8:
-    image(rockyroad, 125, 10, 550, 500);
+    image(rockyroad, 125, 10, 700, 500);
     break;
   case 9:
-    image(brunkal, 125, 10, 550, 500);
+    image(brunkal, 125, 10, 700, 500);
     break;
   case 10:
-    image(gronkal, 125, 10, 550, 500);
+    image(gronkal, 125, 10, 700, 500);
     break;
   case 11:
-    image(fudge, 125, 10, 550, 500);
+    image(fudge, 125, 10, 700, 500);
     break;
   case 12:
-    image(saffranscupcake, 125, 10, 550, 500);
+    image(saffranscupcake, 125, 10, 700, 500);
     break;
   case 13:
-    image(ragsurr, 125, 10, 550, 500);
+    image(ragsurr, 125, 10, 700, 500);
     break;
   case 14:
-    image(sprodapepparkakor, 125, 10, 550, 500);
+    image(sprodapepparkakor, 125, 10, 700, 500);
     break;
   case 15:
-    image(fikon, 125, 10, 550, 500);
+    image(fikon, 125, 10, 700, 500);
     break;
   case 16:
-    image(cinnamonchip, 125, 10, 550, 500);
+    image(cinnamonchip, 125, 10, 700, 500);
     break;
   case 17:
-    image(saffranskorpor, 125, 10, 550, 500);
+    image(saffranskorpor, 125, 10, 700, 500);
     break;
   case 18:
-    image(lingonpepparkaka, 125, 10, 550, 500);
+    image(lingonpepparkaka, 125, 10, 700, 500);
     break;
   case 19:
-    image(lussekatter, 125, 10, 550, 500);
+    image(lussekatter, 125, 10, 700, 500);
     break;
   case 20:
-    image(varmchoklad, 125, 10, 550, 500);
+    image(varmchoklad, 125, 10, 700, 500);
     break;
   case 21:
-    image(saffransgranola, 125, 10, 550, 500);
+    image(saffransgranola, 125, 10, 700, 500);
     break;
   case 22:
-    image(valnotsrora, 125, 10, 550, 500);
+    image(valnotsrora, 125, 10, 700, 500);
     break;
   case 23:
-    image(julgodis, 125, 10, 550, 500);
+    image(julgodis, 125, 10, 700, 500);
     break;
   case 24:
-    image(julsnaps, 125, 10, 550, 500);
+    image(julsnaps, 125, 10, 700, 500);
     break;
   }
 }

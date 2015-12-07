@@ -1,4 +1,3 @@
-
 int [][] siffrorPos;
 
 void boxsiffror() {
