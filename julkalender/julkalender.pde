@@ -57,6 +57,8 @@ void setup() {
   julsnaps = loadImage("24e.jpg");
 
   size(960, 540);
+  smooth();
+  test();
 }
 
 
