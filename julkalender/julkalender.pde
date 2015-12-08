@@ -59,7 +59,7 @@ void setup() {
 
   cursor(mouseCursor);
 
-  size(960, 540);
+  size(1920, 1080);
   smooth();
   test();
 }
@@ -73,4 +73,5 @@ void draw() {
   boxsiffror();
   openHatchesTimer();
   displayOpenHatch();
+  println("X: " + mouseX + "Y :" + mouseY);
 }

@@ -3,7 +3,7 @@ int currentOpenHatch = 0;
 
 int MINUTE = 1000 * 60; 
 
-int boxSize = 100;
+int boxSize = 200;
 
 int boxClicked() {
   int returnValue = 0;
@@ -36,76 +36,76 @@ void displayOpenHatch() {
   case 0:
     break;
   case 1:
-    image(tryffel, 125, 10, 700, 500);
+    image(tryffel, width/7, height/54, width/1.37, height/1.08);
     break;
   case 2:
-    image(ischoklad, 125, 10, 700, 500);
+    image(ischoklad, width/7, height/54, width/1.37, height/1.08);
     break;
   case 3:
-    image(kottbullar, 125, 10, 700, 500);
+    image(kottbullar, width/7, height/54, width/1.37, height/1.08);
     break;
   case 4:
-    image(revbenspjall, 125, 10, 700, 500);
+    image(revbenspjall, width/7, height/54, width/1.37, height/1.08);
     break;
   case 5:
-    image(knack, 125, 10, 700, 500);
+    image(knack, width/7, height/54, width/1.37, height/1.08);
     break;
   case 6:
-    image(skinka, 125, 10, 700, 500);
+    image(skinka, width/7, height/54, width/1.37, height/1.08);
     break;
   case 7:
-    image(smorkola, 125, 10, 700, 500);
+    image(smorkola, width/7, height/54, width/1.37, height/1.08);
     break;
   case 8:
-    image(rockyroad, 125, 10, 700, 500);
+    image(rockyroad, width/7, height/54, width/1.37, height/1.08);
     break;
   case 9:
-    image(brunkal, 125, 10, 700, 500);
+    image(brunkal, width/7, height/54, width/1.37, height/1.08);
     break;
   case 10:
-    image(gronkal, 125, 10, 700, 500);
+    image(gronkal, width/7, height/54, width/1.37, height/1.08);
     break;
   case 11:
-    image(fudge, 125, 10, 700, 500);
+    image(fudge, width/7, height/54, width/1.37, height/1.08);
     break;
   case 12:
-    image(saffranscupcake, 125, 10, 700, 500);
+    image(saffranscupcake, width/7, height/54, width/1.37, height/1.08);
     break;
   case 13:
-    image(ragsurr, 125, 10, 700, 500);
+    image(ragsurr, width/7, height/54, width/1.37, height/1.08);
     break;
   case 14:
-    image(sprodapepparkakor, 125, 10, 700, 500);
+    image(sprodapepparkakor, width/7, height/54, width/1.37, height/1.08);
     break;
   case 15:
-    image(fikon, 125, 10, 700, 500);
+    image(fikon, width/7, height/54, width/1.37, height/1.08);
     break;
   case 16:
-    image(cinnamonchip, 125, 10, 700, 500);
+    image(cinnamonchip, width/7, height/54, width/1.37, height/1.08);
     break;
   case 17:
-    image(saffranskorpor, 125, 10, 700, 500);
+    image(saffranskorpor, width/7, height/54, width/1.37, height/1.08);
     break;
   case 18:
-    image(lingonpepparkaka, 125, 10, 700, 500);
+    image(lingonpepparkaka, width/7, height/54, width/1.37, height/1.08);
     break;
   case 19:
-    image(lussekatter, 125, 10, 700, 500);
+    image(lussekatter, width/7, height/54, width/1.37, height/1.08);
     break;
   case 20:
-    image(varmchoklad, 125, 10, 700, 500);
+    image(varmchoklad, width/7, height/54, width/1.37, height/1.08);
     break;
   case 21:
-    image(saffransgranola, 125, 10, 700, 500);
+    image(saffransgranola, width/7, height/54, width/1.37, height/1.08);
     break;
   case 22:
-    image(valnotsrora, 125, 10, 700, 500);
+    image(valnotsrora, width/7, height/54, width/1.37, height/1.08);
     break;
   case 23:
-    image(julgodis, 125, 10, 700, 500);
+    image(julgodis, width/7, height/54, width/1.37, height/1.08);
     break;
   case 24:
-    image(julsnaps, 125, 10, 700, 500);
+    image(julsnaps, width/7, height/54, width/1.37, height/1.08);
     break;
   }
 }
