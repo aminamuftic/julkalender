@@ -1,5 +1,3 @@
-boolean isClickOnBox1 = false;
-
 boolean openedByTimer = false;
 int currentOpenHatch = 0;
 

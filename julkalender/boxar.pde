@@ -1,6 +1,5 @@
 int[][] myBoxes;
 
-
 void boxes() {
   int xPos = width/7;
   int yPos = width/16;
