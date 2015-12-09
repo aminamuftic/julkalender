@@ -1,8 +1,6 @@
 boolean openedByTimer = false;
 int currentOpenHatch = 0;
-
 int MINUTE = 1000 * 60; 
-
 int boxSize = 200;
 
 int boxClicked() {
@@ -18,20 +16,12 @@ int boxClicked() {
   return returnValue;
 }
 
+//recepten som kommer upp när man trycker på luckorna
 void mouseClicked () {
   currentOpenHatch = boxClicked();
 }
 
 void displayOpenHatch() {
-  //checks which hatch is open and displays something from that
-  /** Below is equivalent to the switch/case block
-   if (currentOpenHatch == 0) {
-   } else if (currentOpenHatch == 1) {
-   image(tryffel,125,10,550,500);
-   } else if (currentOpenHatch == 2) {
-   image(tryffel,125,10,550,500);
-   }
-   **/
   switch (currentOpenHatch) {
   case 0:
     break;
@@ -110,6 +100,7 @@ void displayOpenHatch() {
   }
 }
 
+//Tiden som öppnar luckan var tionde minut på det rätta datumet.
 void openHatchesTimer() {
   int millisSinceAppStart = millis();
   //int minutesSinceAppStart = millisSinceAppStart / 1000;
@@ -118,7 +109,7 @@ void openHatchesTimer() {
   boolean hasTenMinutesPassed = tenMinutesPassed(minutesSinceAppStart);
 
   if (minutesSinceAppStart > 0 && hasTenMinutesPassed && currentOpenHatch == 0) {
-    currentOpenHatch = day(); //open today's hatch
+    currentOpenHatch = day(); //öppnar dagens lucka
     openedByTimer = true;
   } else if (minutesSinceAppStart > 0 && currentOpenHatch != 0 && openedByTimer && minutesSinceAppStart % 10 >= 3) {
     currentOpenHatch = 0;

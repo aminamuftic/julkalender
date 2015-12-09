@@ -1,3 +1,4 @@
+//Själva luckorna där vi har siffrorna. 
 int [] siffrorPos;
 
 void boxsiffror() {
@@ -12,7 +13,7 @@ void boxsiffror() {
     text(i+1, xPos+width/20, yPos+height/9);
 
     xPos = xPos + width/8;
-    
+
     if (xPos + width/5 > width) {
       xPos = width/7;
       yPos = yPos + width/8;

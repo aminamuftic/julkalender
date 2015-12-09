@@ -28,7 +28,7 @@ PImage julsnaps;
 
 void setup() {
   mouseCursor = loadImage("TREE.png");
-  
+
   font = createFont("AmericanTypewriter-Bold", 40);
   textFont(font);
   backGround = loadImage("background.jpg");

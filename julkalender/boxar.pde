@@ -1,3 +1,4 @@
+//Själva rutan/området som man klickar på.
 int[][] myBoxes;
 
 void boxes() {
@@ -13,7 +14,7 @@ void boxes() {
     myBoxes[i][1] = yPos;
 
     xPos = xPos + width/8;
-    
+
     if (xPos + width/7 > width) {
       xPos = width/7;
       yPos = yPos + width/8;
