@@ -29,7 +29,7 @@ PImage julsnaps;
 void setup() {
   mouseCursor = loadImage("TREE.png");
 
-  font = createFont("AmericanTypewriter-Bold", 40);
+  font = createFont("AmericanTypewriter-Bold", 50);
   textFont(font);
   backGround = loadImage("background.jpg");
   tryffel = loadImage("tryffell.jpg");
