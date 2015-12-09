@@ -1,9 +1,10 @@
 boolean openedByTimer = false;
 int currentOpenHatch = 0;
 int MINUTE = 1000 * 60; 
-int boxSize = 200;
+
 
 int boxClicked() {
+  int boxSize = width/10;
   int returnValue = 0;
   for (int i = 0; i < myBoxes.length; i++) {
     if (mouseX > myBoxes[i][0] && mouseX < myBoxes[i][0] + boxSize && mouseY > myBoxes[i][1] && mouseY < myBoxes[i][1] + boxSize) {
