@@ -1,4 +1,4 @@
-//Själva luckorna där vi har siffrorna. 
+//siffrorna. 
 int [] siffrorPos;
 
 void boxsiffror() {

@@ -1,8 +1,9 @@
+
 boolean openedByTimer = false;
 int currentOpenHatch = 0;
 int MINUTE = 1000 * 60; 
 
-
+//bestämmer klickbara områden och bryter timern
 int boxClicked() {
   int boxSize = width/10;
   int returnValue = 0;

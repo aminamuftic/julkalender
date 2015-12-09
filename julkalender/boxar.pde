@@ -1,4 +1,4 @@
-//Själva rutan/området som man klickar på.
+//Själva luckorna
 int[][] myBoxes;
 
 void boxes() {

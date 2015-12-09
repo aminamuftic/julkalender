@@ -7,7 +7,7 @@ float minSnowSize = 1;
 float maxSnowSize = 6;
 int direction = 3;
 
-void test() {
+void snowFlake() {
   //Detta behöver vara i setup för att det inte ska bli ett överflöd utav snöflingor.
   for (int i = 0; i < amount; i++) {
     xPos[i]= random(0, width);
@@ -27,7 +27,7 @@ void snowflakes() {
     //gör så att flingorna åker neråt
     yPos[i] +=direction;
 
-    //Ny ellipse skapas när de når maxhöjd och maxbredd.
+    //Ny ellipse skapas när de når maxHeight
     if (yPos[i] > height) {
       yPos[i] = 0;
     }
